@@ -8,5 +8,5 @@ spring:
     name: wanhuhealtholdTest
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
-name: test
+name: testcc
 
