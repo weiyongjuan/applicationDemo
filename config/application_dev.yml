@@ -5,7 +5,7 @@ server:
     uri-encoding: UTF-8 
 spring:
   application:
-    name: wanhuhealthold
+    name: spring-cloud-config-client-dev
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
       
