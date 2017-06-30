@@ -1,0 +1,22 @@
+#server
+server:
+  port: 8089
+  tomcat:
+    uri-encoding: UTF-8 
+spring:
+  application:
+    name: wanhuhealthold
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+      
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:7070/eureka/
+
+#hibernate settings
+hibernate.search.default.indexBase: indexes
+hibernate.show_sql: false
+
